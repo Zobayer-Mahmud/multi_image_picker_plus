@@ -27,9 +27,9 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 34
-//    if (project.android.hasProperty('namespace')) {
-        namespace = "com.tianxin.plus.multi_image_picker"
-//    }
+    if (project.android.hasProperty('namespace')) {
+        namespace = "com.tianxin.plus.muilti_image_picker"
+    }
 
 
     compileOptions {
